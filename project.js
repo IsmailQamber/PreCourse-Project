@@ -165,11 +165,10 @@ function isUpperCase(string) {
  *
  */
 function elementInArray(numbers, x) {
-  for(let i = 0; i < numbers.length; i++){
-    if(numbers[i] === x){
+  
+    if(numbers.includes(x)){
       return true;
     }else return false;
-  }
 }//best practice to do this is just type numbers.includes(x);
 
 /**
